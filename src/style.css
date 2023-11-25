@@ -1,0 +1,62 @@
+
+.link{
+    text-decoration: none;
+    color: #192a56;
+}
+
+.link:hover{
+    color: blue;
+}
+
+.err{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.have-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border span{
+    background-color: blue;
+    width: 100px;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: -2%;
+}
+
+.imglink{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.products{
+    padding: 20px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.card{
+    border: 1px solid #192a56;
+    height: 10vh;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin: 20px;
+}
